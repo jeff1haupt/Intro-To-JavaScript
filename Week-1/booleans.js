@@ -1,15 +1,31 @@
-// let enoughMoney = newBalance > 50; //logs true
-// console.log(enoughMoney);
+let enoughMoney = newBalance < 50; //logs true
+console.log(newBalance);
+console.log(enoughMoney);
 
-// var greaterThan = x > z; //logs false
-// console.log(greaterThan);
+for ( let i = 0; i < 5; i++ ) {
+    console.log(enoughMoney);
+    let cantGetToThis = 0;
+}
 
-// let isNull = emptyVar == null; //logs true
-// console.log(isNull);
+// console.log(cantGetToThis);
 
-// let weird = "5" == 5; //logs true
-// console.log(weird);
+var greaterThan = 5 > 20; //logs false
+console.log(greaterThan);
 
-// let notWeird = "5" === 5; //logs false 
-// console.log(notWeird);
+let isNull = emptyVar == null; //logs true
+console.log(emptyVar);
+console.log(isNull);
 
+let weird = "5" == 5; //logs true
+console.log(weird);
+
+let notWeird = "5" === 5; //logs false 
+console.log(notWeird);
+
+const num5 = 5;
+num5 = 10;
+console.log(num5);
+
+// prior to ES6 JavaScript only had var
+// let very similar to var but it fixes var's scope problems 
+// const it's a constant - you won't change this
