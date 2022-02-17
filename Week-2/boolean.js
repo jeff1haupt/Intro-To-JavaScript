@@ -9,7 +9,7 @@
 && AND operator 
 // */
 
-// console.log( 5 == 10 ); // false
+console.log( 5 == 10 ); // false
 // console.log( 10 > 1 ); // true
 // console.log( -1 < 0 ); // true
 // console.log( 100 < 50 && 50 < 75 && 1 > 0 && 5 == 5); // false 

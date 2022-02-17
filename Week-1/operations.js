@@ -5,11 +5,11 @@ console.log(newBalance); // logs out 152.1
 console.log(newBalance.toFixed(2)) //logs out 152.10
 console.log(newBalance - 25);
 
-// var x = 5;
-// var y = 6;
+var x = 5;
+var y = 6;
 
-// y = y + 3 + x; // y is now set to 8
-// console.log(y);
+y = y + 3 + x; // y is now set to 8
+console.log(y);
 
 // y = 2*x + 5; // y is now set to 15
 // console.log(y); 
