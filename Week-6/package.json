@@ -1,0 +1,15 @@
+{
+  "name": "week-6",
+  "version": "1.0.0",
+  "description": "Week 6 Class Work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Haupt",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1"
+  }
+}
